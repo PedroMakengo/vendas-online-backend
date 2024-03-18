@@ -1,5 +1,6 @@
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
+// Estrutura do meu banco de dados
 @Entity({ name: 'user' })
 export class UserEntity {
   @PrimaryGeneratedColumn('rowid')
